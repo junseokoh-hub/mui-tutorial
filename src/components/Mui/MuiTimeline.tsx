@@ -1,0 +1,45 @@
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+
+const MuiTimeline = () => {
+  return (
+    <Timeline position="alternate">
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          09:30 am
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" variant="outlined" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>City A</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          10:00 am
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" variant="outlined" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>City B</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
+          10:30 am
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" variant="outlined" />
+        </TimelineSeparator>
+        <TimelineContent>City C</TimelineContent>
+      </TimelineItem>
+    </Timeline>
+  );
+};
+
+export default MuiTimeline;

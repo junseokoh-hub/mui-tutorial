@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import MuiBottomNavigation from "../Mui/MuiBottomNavigation";
 import MuiNavbar from "../Mui/MuiNavbar";
 
 const Layout = () => {
@@ -9,7 +8,6 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
-      <MuiBottomNavigation />
     </>
   );
 };

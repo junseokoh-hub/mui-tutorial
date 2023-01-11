@@ -8,6 +8,12 @@ or
 yarn add @mui/material @emotion/react @emotion/styled
 ```
 
+```
+npm install @mui/lab
+
+npm install @mui/x-date-pickers
+```
+
 - [x] Typography
 - [x] Buttonyarn add @mui/material @emotion/react @emotion/styled
 - [x] Button Group
@@ -33,25 +39,25 @@ yarn add @mui/material @emotion/react @emotion/styled
 - [x] Drawer
 - [x] Speed Dial
 - [x] Bottom Navigation
-- [ ] Avatar
-- [ ] Badge
-- [ ] List
-- [ ] Chip
-- [ ] Tooltip
-- [ ] Table
-- [ ] Alert
-- [ ] Snackbar
-- [ ] Dialog
-- [ ] Progress
-- [ ] Skeleton
-- [ ] Loading Button
-- [ ] Date and Time Picker
-- [ ] Date Range Picker
-- [ ] Tabs
-- [ ] Timeline
-- [ ] Masonry
-- [ ] Responsiveness
-- [ ] Customizing Theme
+- [x] Avatar
+- [x] Badge
+- [x] List
+- [x] Chip
+- [x] Tooltip
+- [x] Table
+- [x] Alert
+- [x] Snackbar
+- [x] Dialog
+- [x] Progress
+- [x] Skeleton
+- [x] Loading Button
+- [x] Date and Time Picker
+- [x] Date Range Picker
+- [x] Tabs
+- [x] Timeline
+- [x] Masonry
+- [x] Responsiveness
+- [x] Customizing Theme
 
 ---
 
