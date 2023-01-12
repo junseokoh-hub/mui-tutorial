@@ -15,7 +15,7 @@ npm install @mui/x-date-pickers
 ```
 
 - [x] Typography
-- [x] Buttonyarn add @mui/material @emotion/react @emotion/styled
+- [x] Button
 - [x] Button Group
 - [x] Toggle Button
 - [x] Text Field
